@@ -40,19 +40,19 @@
 
 ## 分析知识模块
 
-#### **[布局](#overall) <font color=#FF3300>*</font>**
+#### **[布局](#overall) <font color="#FF3300">*</font>**
 
 + [盒子模型的宽度如何计算](#overall1)
 + [margin 纵向重叠问题](#overall2)
 + [margin 负值问题](#overall3)
 + [BFC 理解和应用](#overall4)
-+ **[float 布局问题、以及 clearfix](#overall5)  <font color=#FF3300>*</font>**
-+ **[flex 画骰子](#overall6)  <font color=#FF3300>*</font>**
++ **[float 布局问题、以及 clearfix](#overall5)  <font color="#FF3300">*</font>**
++ **[flex 画骰子](#overall6)  <font color="#FF3300">*</font>**
 
-#### **[定位](#position) <font color=#FF3300>*</font>**
+#### **[定位](#position) <font color="#FF3300">*</font>**
 
 + [absolute 和 relative 分别根据什么定位](#position1)
-+ **[居中对齐有哪些实现方式](#position2)  <font color=#FF3300>*</font>**
++ **[居中对齐有哪些实现方式](#position2)  <font color="#FF3300">*</font>**
 
 #### [图文样式](#style)
 

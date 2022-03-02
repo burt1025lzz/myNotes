@@ -13,13 +13,13 @@
 #### [事件](#event)
 
 + [事件绑定和事件冒泡](#eventBind)
-+ **[事件代理](#eventProxy) <font color=#FF3300>*</font>**（**[或称事件委托](#eventProxy)**）
++ **[事件代理](#eventProxy) <font color="#FF3300">*</font>**（**[或称事件委托](#eventProxy)**）
 
 #### [ajax](#ajax)
 
 + [XMLHttpRequest](XMLHttpRequest)
 + [状态码](#statusCode)
-+ **[同源策略和跨域](#crossDomain) <font color=#FF3300>*</font>**
++ **[同源策略和跨域](#crossDomain) <font color="#FF3300">*</font>**
 
 #### [存储](#storage)
 

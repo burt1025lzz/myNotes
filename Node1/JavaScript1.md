@@ -8,35 +8,35 @@
 
 + [类型转化](#typeTransformation)
 + [值类型和引用类型的区别](#valueAndReference)
-+ **[深拷贝](#deepCopy) <font color=#FF3300>*</font>**
++ **[深拷贝](#deepCopy) <font color="#FF3300">*</font>**
 
-#### **[原型和原型链](#prototypeAndPrototypeChain) <font color=#FF3300>*</font>**
+#### **[原型和原型链](#prototypeAndPrototypeChain) <font color="#FF3300">*</font>**
 
-+ **[理解原型和原型链](#prototype) <font color=#FF3300>*</font>**
++ **[理解原型和原型链](#prototype) <font color="#FF3300">*</font>**
 + [class 实现封装、继承](#class)
 + [instanceof 判断类型](#instanceof)
 
-#### **[闭包和作用域](#scopeAndClosure) <font color=#FF3300>*</font>**
+#### **[闭包和作用域](#scopeAndClosure) <font color="#FF3300">*</font>**
 
-+ **[作用域和自由变量](#scope) <font color=#FF3300>*</font>**
-+ **[this 的几种情况](#this) <font color=#FF3300>*</font>**
-+ **[闭包的概念和使用场景](#closure) <font color=#FF3300>*</font>**
++ **[作用域和自由变量](#scope) <font color="#FF3300">*</font>**
++ **[this 的几种情况](#this) <font color="#FF3300">*</font>**
++ **[闭包的概念和使用场景](#closure) <font color="#FF3300">*</font>**
 
-#### **[异步和单线程](#async)** <font color=#FF3300>*</font>
+#### **[异步和单线程](#async)** <font color="#FF3300">*</font>
 
 + [异步和同步的区别](#syncAndAsync)
-+ **[异步在前端的使用场景](#asyncApplication) <font color=#FF3300>*</font>**
-+ **[Promise](#promise) <font color=#FF3300>*</font>**
++ **[异步在前端的使用场景](#asyncApplication) <font color="#FF3300">*</font>**
++ **[Promise](#promise) <font color="#FF3300">*</font>**
 
 ------
 
 ## 思考三个问题
 
-+ #### 拿到一个题目，第一时间看到什么？<font color=#FF3300>考点</font>
++ #### 拿到一个题目，第一时间看到什么？<font color="#FF3300">考点</font>
 
-+ #### 如何看待做不完的题海？<font color=#FF3300>不变应万变（题可变，考点不会变）</font>
++ #### 如何看待做不完的题海？<font color="#FF3300">不变应万变（题可变，考点不会变）</font>
 
-+ #### 如何对待接下来的题目？<font color=#FF3300>题目到知识点，再回到题目</font>
++ #### 如何对待接下来的题目？<font color="#FF3300">题目到知识点，再回到题目</font>
 
 ------
 
@@ -674,7 +674,7 @@ for (i = 0; i < 10; i++) {
 ##### <span id="syncAndAsync">1. 单线程、同步和异步</span>
 
 + `javaScript` 是单线程语言，只能同时做一件事
-+ 浏览器和 `nodejs` 已经支持 `JS` 启动 <font color=#FF3300>进程</font>，如 `Web Worker`
++ 浏览器和 `nodejs` 已经支持 `JS` 启动 <font color="#FF3300">进程</font>，如 `Web Worker`
 + `JS` 和 `DOM` 渲染共用同一个线程，因为 `JS` 可修改 `DOM` 结构
 + 遇到等待（网络请求，定时任务）不能卡住
 + 回调 `callback` 函数形式
