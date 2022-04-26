@@ -122,13 +122,13 @@ watch: {
 + 更新阶段
 + 销毁阶段
 
-<img src="https://cn.vuejs.org/images/lifecycle.png" alt="vue生命周期" style="zoom: 33%;" />
+<img src="https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/lifecycle.png" alt="vue生命周期" style="zoom: 33%;" />
 
 
 
 #### 4. 组件生命周期（父子组件）
 
-<img src="Vue1.assets/image-20211213153914983.png" alt="image-20211213153914983" style="zoom:33%;" />
+<img src="https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20211213153914983.png" alt="image-20211213153914983" style="zoom:33%;" />
 
 
 
@@ -157,7 +157,7 @@ watch: {
 
 2. 需要根据数据，动态渲染的场，即组件类型不确定
 
-   <img src="Vue1.assets/image-20211213171729194.png" alt="image-20211213171729194" style="zoom: 33%;" />
+   <img src="https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20211213171729194.png" alt="image-20211213171729194" style="zoom: 33%;" />
 
 3. `import()` 函数
 
@@ -194,7 +194,7 @@ watch: {
 + `action`
 + `mutation`
 
-![image-20211215142721574](Vue1.assets/image-20211215142721574.png)
+![image-20211215142721574](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20211215142721574.png)
 
 ------
 
@@ -206,10 +206,10 @@ watch: {
 + `H5 history` 模式，如 `http://abc.com/user/10`
 + 后者需要 `server` 端支持，因此无特殊需求可选择前者
 
-![image-20211215150744804](Vue1.assets/image-20211215150744804.png)
+![image-20211215150744804](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20211215150744804.png)
 
 #### 2. 路由配置（动态路由、懒加载）
 
-![image-20211215150847617](Vue1.assets/image-20211215150847617.png)
+![image-20211215150847617](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20211215150847617.png)
 
-![image-20211215151021885](Vue1.assets/image-20211215151021885.png)
+![image-20211215151021885](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20211215151021885.png)
