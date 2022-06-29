@@ -8,4 +8,6 @@
 
 - [3. 其他前端知识模块](Node3/index.md)
 
-- [4. 其他杂项](Node4/index.md)
+- [4. React 学习](React/index.md)
+
+- [5. 其他杂项](Node4/index.md)
