@@ -57,3 +57,16 @@
 + 路由导航与原生浏览器操作行为一致 `<BrowserRouter />`
 + 路由的路径解析原理与原生浏览器一致，可以自动识别 url 路径 `<Route />`
 + 路径的切换以页面为单位，不要页面堆叠 `<Routes />`
+
+### 4. 如何在 URL 中添加参数
+
++ 第一种是最常见的使用 "?" 来引导参数
+
+  http://localhost/path?name1=value&name2=value2
+
++ 第二种，分段路由 Segments
+
+  RESTful 的思维方式，参数作为 URL 片段中的一部分，使用 "/"
+
+  http://localhost:3000/products/131415
+
