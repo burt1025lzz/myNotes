@@ -32,3 +32,28 @@
 + 浏览器路由框架：react-keeper
 + 手机 app 框架 ( react-native )：react-navigation
 
+------
+
+
+
+## 二、配置 react-router
+
+### 1. react-router
+
++ react-router-dom 用于浏览器，处理 Web App 的路由
++ react-router-native 用于 React Native，处理手机 App 的路由
++ react-router-redux 提供了路由中间件，处理 redux 的集成
++ react-router-config 用来静态配置路由
+
+### 2. react-router-dom
+
++ 会自动安装 react-router 核心框架
++ `<Link />` 组件可以渲染出 `<a />` 标签
++ `<BrowserRouter />` 组件利用 H5 API 实现路由切换
++ `<HashRouter />` 组件利用原生 JS 中的 `window.location.hash` 来实现路由切换
+
+### 3. 网站路由系统的要求
+
++ 路由导航与原生浏览器操作行为一致 `<BrowserRouter />`
++ 路由的路径解析原理与原生浏览器一致，可以自动识别 url 路径 `<Route />`
++ 路径的切换以页面为单位，不要页面堆叠 `<Routes />`
