@@ -25,8 +25,11 @@
 + 某个组件需要改变另一个组件状态的时候
 + 语言切换、暗黑模式切换、用户登录全局数据共享...
 
+### 4. Redux 工作流
+
 ![iShot_2022-07-04_17.23.49](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/iShot_2022-07-04_17.23.49.png)
 
 ![iShot_2022-07-04_17.29.47](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/iShot_2022-07-04_17.29.47.png)
 
 ![iShot_2022-07-04_17.30.21](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/iShot_2022-07-04_17.30.21.png)
+
