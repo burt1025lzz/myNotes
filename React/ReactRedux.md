@@ -33,3 +33,50 @@
 
 ![iShot_2022-07-04_17.30.21](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/iShot_2022-07-04_17.30.21.png)
 
+------
+
+
+
+## 二、Redux 中间件
+
+### 1. RESTful 的基本特点
+
++ 无状态
+
++ 面向 ”资源“
+
++ 使用 HTTP 的动词
+
+  ![image-20220706092900120](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20220706092900120.png)
+
++ HATOAS 超媒体即应用状态引擎
+
+### 2. 什么是 MVC
+
++ 一种架构模式，同时也是一种思想
++ 模型（Model）、视图（View）和控制器（Controller）
++ 分离业务操作、UI 显示、逻辑控制
++ 视图 View
+  1. 用户交互页面
+  2. 仅展示数据，不处理数据
+  3. React 项目的 JSX 代码
++ 模型 Model
+  1. MVC 架构的核心
+  2. 表示业务模型或数据模型
+  3. 业务逻辑，如算法实现、数据的管理、输出对象的封装等等
++ 控制器 Controller
+  1. 接收用户的输入，并调用模型和视图去完成用户的请求处理
+  2. 不处理数据
+  3. React -> MVVM 或 MV*（whatever）
++ React 和 MVC 模式毫不相干
+
+### 3. Redux 中间件机制
+
+![image-20220706143556995](https://burt-markdown.oss-cn-shenzhen.aliyuncs.com/markdown/image-20220706143556995.png)
+
+### 4. Redux 中间件公式
+
+```js
+const middleware = (store) => (next) => (action) => {}
+```
+
